@@ -62,7 +62,7 @@ The intended audience are individuals with coding skills.
 
 - Use Cosmos DB as a Vector Database for grounding your own data. A vector database stores and manages vector embeddings for records, which are used in similarity search and Retrieval-Augmented Generation (RAG). CosmosDB allows you to store vectors directly in documents alongside traditional schema-free data, enabling efficient indexing and searching. This colocation of data and vectors simplifies data management, AI application architectures, and enhances the efficiency of vector-based operations.
 
-### Challenge 7: **[Basic Natural Language to SQL with Semantic Kernel](Student/Challenge-07.md)**
+### (Optional) Challenge 7: **[Basic Natural Language to SQL with Semantic Kernel](Student/Challenge-07.md)**
 
 - Practice how to convert natural language queries into SQL statements by using Semantic Kernel .This challenge will help you understand how to translate user requests into precise SQL queries that can be executed on a database by passing the sql schema into LLM context window.
 
