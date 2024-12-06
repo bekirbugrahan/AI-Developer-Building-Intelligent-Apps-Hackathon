@@ -46,12 +46,9 @@ namespace SK.NLtoSQL
                     {
                         if (chatMessages != null)
                         {
+                            // Remove the tool messages from the chat history
                             chatMessages = new ChatHistory(chatMessages.Where(t=>t.Role!= AuthorRole.Tool && t.Metadata==null).ToList());
-
-                            if (chatMessages.Count > 10)
-                            {
-                                chatMessages = new ChatHistory(chatMessages.TakeLast(10));
-                            }
+                          
                         }
 
                         
